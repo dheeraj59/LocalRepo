@@ -21,7 +21,11 @@ int bins(vector<int> arr,int tar){
 
 int main(){
     vector<int> arr1 = {1,2,5,8,9};
-    int t = 8;
-    cout<<bins(arr1,t)<<endl;
+    int t1 = 8;
+    vector<int> arr2 = {2,8,9,10,11};
+    int t2 = 8;
+
+    cout<<bins(arr1,t1)<<endl;
+    cout<<bins(arr2,t2)<<endl;
     return 0;
 }
